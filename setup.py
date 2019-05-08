@@ -12,7 +12,8 @@ ext_modules = [
                 'external._mask',
                 sources=['external/maskApi.c', 'external/_mask.pyx'],
                 include_dirs = [np.get_include(), 'external'],
-                extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],
+                #extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],
+                extra_compile_args={'gcc': ['/Qstd=c99']},
             )
         ]
 
