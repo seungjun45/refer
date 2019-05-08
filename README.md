@@ -1,8 +1,6 @@
 ## Modification
 changed setup.py for windows support.
-1) run Command Prompt for VS
-2) type <python setup.py build_ext --inplace>
-3) type <rm -rf build> from mingw64, or simply delete build folder
+--just use it--
 
 
 ## Note
