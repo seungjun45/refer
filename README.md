@@ -1,3 +1,10 @@
+## Modification
+changed setup.py for windows support.
+1) run Command Prompt for VS
+2) type <python setup.py build_ext --inplace>
+3) type <rm -rf build> from mingw64, or simply delete build folder
+
+
 ## Note
 This API is able to load all 4 referring expression datasets, i.e., RefClef, RefCOCO, RefCOCO+ and RefCOCOg. 
 They are with different train/val/test split by UNC, Google and UC Berkeley respectively. We provide all kinds of splits here.
