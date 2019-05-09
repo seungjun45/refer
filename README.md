@@ -2,16 +2,6 @@
 windows support.</br>
 --just use it--
 
-
-## Note
-This API is able to load all 4 referring expression datasets, i.e., RefClef, RefCOCO, RefCOCO+ and RefCOCOg. 
-They are with different train/val/test split by UNC, Google and UC Berkeley respectively. We provide all kinds of splits here.
-<table width="100%">
-<tr>
-<td><img src="http://bvisionweb1.cs.unc.edu/licheng/referit/refer_example.jpg", alt="Mountain View" width="95%"></td>
-</tr>
-</table>
-
 ## Citation
 If you used the following three datasets RefClef, RefCOCO and RefCOCO+ that were collected by UNC, please consider cite our EMNLP2014 paper; if you want to compare with our recent results, please check our ECCV2016 paper.
 ```bash
@@ -20,9 +10,11 @@ Yu, Licheng, et al. "Modeling Context in Referring Expressions." ECCV 2016.
 ```
 
 ## Setup
-Run "make" before using the code.
+<del>Run "make" before using the code.
 It will generate ``_mask.c`` and ``_mask.so`` in ``external/`` folder.
-These mask-related codes are copied from mscoco [API](https://github.com/pdollar/coco).
+These mask-related codes are copied from mscoco [API](https://github.com/pdollar/coco). </del></br>
+
+No Setup Required :D
 
 ## Download
 Download the cleaned data and extract them into "data" folder
