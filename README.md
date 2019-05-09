@@ -1,4 +1,4 @@
-## This is Python 3 Modification !!
+## This is Python 3 Modification of origianl refer !!
 windows support. Python 3.x support. </br>
 --just use it-- </br>
 Leave any question if you have : seungjun45@kaist.ac.kr
