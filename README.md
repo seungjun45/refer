@@ -29,7 +29,7 @@ Download the cleaned data and extract them into "data" folder
 COCO's images are used for RefCOCO, RefCOCO+ and refCOCOg.
 For RefCLEF, please add ``saiapr_tc-12`` into ``data/images`` folder. We extracted the related 19997 images to our cleaned RefCLEF dataset, which is a subset of the original [imageCLEF](http://imageclef.org/SIAPRdata). Download the [subset](http://bvisionweb1.cs.unc.edu/licheng/referit/data/images/saiapr_tc-12.zip) and unzip it to ``data/images/saiapr_tc-12``.</del></br>
 
-If you already have above files, just change your file paths in 'address_server_refer.py'
+If you already have above files, just change your file paths in 'address_server_refer.py' </br>
 If you don't, download files from above links, and change your file paths in 'address_server_refer.py'
 
 
