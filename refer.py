@@ -51,9 +51,11 @@ class REFER:
 		self.ROOT_DIR = osp.abspath(osp.dirname(__file__))
 		self.DATA_DIR = osp.join(data_root, dataset)
 		if dataset in ['refcoco', 'refcoco+', 'refcocog']:
-			self.IMAGE_DIR = osp.join(addr_train_imgs_COCO, 'images/mscoco/images/train2014')
+			#self.IMAGE_DIR = osp.join(addr_train_imgs_COCO, 'images/mscoco/images/train2014')
+			self.IMAGE_DIR = osp.join(addr_train_imgs_COCO)
 		elif dataset == 'refclef':
-			self.IMAGE_DIR = osp.join(data_root, 'images/saiapr_tc-12')
+			#self.IMAGE_DIR = osp.join(data_root, 'images/saiapr_tc-12')
+			self.IMAGE_DIR = osp.join(addr_imgs_refclef)
 		else:
 			print('No refer dataset is called [%s]' % dataset)
 			sys.exit()
